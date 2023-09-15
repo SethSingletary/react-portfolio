@@ -46822,7 +46822,10 @@ const HomeView = ()=>{
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {}, void 0, false, {
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: "./images/profile.JPG",
+                        alt: "A photo of Seth Singletary"
+                    }, void 0, false, {
                         fileName: "src/components/home-view.jsx",
                         lineNumber: 8,
                         columnNumber: 17
@@ -46900,26 +46903,65 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "ContactView", ()=>ContactView);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _reactBootstrap = require("react-bootstrap");
 var _navigationView = require("./navigation-view");
 const ContactView = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navigationView.NavigationView), {}, void 0, false, {
                 fileName: "src/components/contact-view.jsx",
-                lineNumber: 6,
+                lineNumber: 7,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                children: "Contact Page"
+                children: "I am currently based in Okemos, Michigan."
             }, void 0, false, {
                 fileName: "src/components/contact-view.jsx",
-                lineNumber: 7,
+                lineNumber: 8,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: "To get in contact with me, please send me an email at singletaryseth8gmail.com or click below."
+            }, void 0, false, {
+                fileName: "src/components/contact-view.jsx",
+                lineNumber: 9,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: [
+                    "Phone: ",
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        href: "tel:5178998659",
+                        children: "517-899-8659"
+                    }, void 0, false, {
+                        fileName: "src/components/contact-view.jsx",
+                        lineNumber: 11,
+                        columnNumber: 24
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/components/contact-view.jsx",
+                        lineNumber: 11,
+                        columnNumber: 65
+                    }, undefined),
+                    "Email: ",
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        href: "mailto:singletaryseth8@gmail.com",
+                        children: "singletaryseth8@gmail.com"
+                    }, void 0, false, {
+                        fileName: "src/components/contact-view.jsx",
+                        lineNumber: 12,
+                        columnNumber: 24
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/contact-view.jsx",
+                lineNumber: 10,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/contact-view.jsx",
-        lineNumber: 5,
+        lineNumber: 6,
         columnNumber: 9
     }, undefined);
 };
@@ -46932,7 +46974,7 @@ $RefreshReg$(_c, "ContactView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","./navigation-view":"8niNh","@parcel/transformer-js/src/esmodule-helpers.js":"8l0cl","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"vZYVs"}],"hh8Um":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","./navigation-view":"8niNh","@parcel/transformer-js/src/esmodule-helpers.js":"8l0cl","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"vZYVs","react-bootstrap":"3AD9A"}],"hh8Um":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ef29 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;

@@ -5,7 +5,7 @@ export const HomeView = () => {
         <div>
             <NavigationView/>
             <div>
-                <img></img>
+                <img src="./images/profile.JPG" alt="A photo of Seth Singletary"></img>
                 <h1>Seth Singletary, Web Developer</h1>
             </div>
             <div>
