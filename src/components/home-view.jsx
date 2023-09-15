@@ -1,5 +1,5 @@
 import { NavigationView } from "./navigation-view";
-import profile from './images/profile.jpg';
+import profile from './images/profile.JPG';
 
 export const HomeView = () => {
     return(
