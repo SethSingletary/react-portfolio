@@ -3,7 +3,7 @@ import { MainView } from './components/main-view';
 import { Container } from 'react-bootstrap';
 import "./index.scss";
 
-const Reactporfolio = () => {
+const ReactPorfolio = () => {
     return(
         <Container>
             <MainView/>
@@ -14,4 +14,4 @@ const Reactporfolio = () => {
 const container = document.querySelector('#root');
 const root = createRoot(container);
 
-root.render(<Reactporfolio/>);
+root.render(<ReactPorfolio/>);
