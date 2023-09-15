@@ -1,5 +1,13 @@
 $color: steelblue;
 
-.main {
+body{
+    text-align: center;
+}
+
+li{
+    display: inline;
+}
+
+.navigationBar {
     color: $color;
 }

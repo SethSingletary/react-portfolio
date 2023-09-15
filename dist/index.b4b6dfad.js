@@ -33160,6 +33160,7 @@ const NavigationView = ()=>{
         window.location.reload();
     }
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "navigationBar",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {

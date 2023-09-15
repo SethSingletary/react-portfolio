@@ -1,4 +1,12 @@
-.main {
+body {
+  text-align: center;
+}
+
+li {
+  display: inline;
+}
+
+.navigationBar {
   color: #4682b4;
 }
 

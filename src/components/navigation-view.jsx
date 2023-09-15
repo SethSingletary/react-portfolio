@@ -22,7 +22,7 @@ export const NavigationView = () => {
     }
 
     return (
-        <div>
+        <div className="navigationBar">
             <ul>
                 <li><Button onClick={handleHome}>Home</Button></li>
                 <li><Button onClick={handleContact}>Contact</Button></li>
