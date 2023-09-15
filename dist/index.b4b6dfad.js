@@ -46756,8 +46756,8 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "HomeView", ()=>HomeView);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _navigationView = require("./navigation-view");
-var _profileJpg = require("./images/profile.jpg");
-var _profileJpgDefault = parcelHelpers.interopDefault(_profileJpg);
+var _profilePng = require("./images/profile.png");
+var _profilePngDefault = parcelHelpers.interopDefault(_profilePng);
 const HomeView = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
@@ -46769,7 +46769,7 @@ const HomeView = ()=>{
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        src: (0, _profileJpgDefault.default),
+                        src: (0, _profilePngDefault.default),
                         alt: "A photo of me",
                         height: "auto",
                         width: "30%"
@@ -46840,10 +46840,10 @@ $RefreshReg$(_c, "HomeView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","./navigation-view":"8niNh","./images/profile.jpg":"cwNqV","@parcel/transformer-js/src/esmodule-helpers.js":"8l0cl","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"vZYVs"}],"cwNqV":[function(require,module,exports) {
-module.exports = require("92781f99eb57c041").getBundleURL("byUka") + "profile.0405fcae.jpg" + "?" + Date.now();
+},{"react/jsx-dev-runtime":"iTorj","./navigation-view":"8niNh","./images/profile.png":"1HyHh","@parcel/transformer-js/src/esmodule-helpers.js":"8l0cl","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"vZYVs"}],"1HyHh":[function(require,module,exports) {
+module.exports = require("c5bff2caf3c7cf87").getBundleURL("byUka") + "profile.c0c833aa.png" + "?" + Date.now();
 
-},{"92781f99eb57c041":"dKLuR"}],"dKLuR":[function(require,module,exports) {
+},{"c5bff2caf3c7cf87":"dKLuR"}],"dKLuR":[function(require,module,exports) {
 "use strict";
 var bundleURL = {};
 function getBundleURLCached(id) {

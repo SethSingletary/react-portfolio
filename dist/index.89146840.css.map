@@ -1,1 +1,0 @@
-{"mappings":"ACEA","sources":["index.89146840.css","src/index.scss"],"sourcesContent":[".navigationBar {\n  color: #4682b4;\n  display: inline;\n}\n\n/*# sourceMappingURL=index.89146840.css.map */\n","$color: steelblue;\n\n.navigationBar {\n    color: $color;\n    display: inline;\n}"],"names":[],"version":3,"file":"index.89146840.css.map"}
