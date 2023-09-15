@@ -33298,80 +33298,71 @@ const NavigationView = ()=>{
         window.location.reload();
     }
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                children: "Seth Singletary"
-            }, void 0, false, {
-                fileName: "src/components/navigation-view.jsx",
-                lineNumber: 26,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
-                            onClick: handleHome,
-                            children: "Home"
-                        }, void 0, false, {
-                            fileName: "src/components/navigation-view.jsx",
-                            lineNumber: 28,
-                            columnNumber: 21
-                        }, undefined)
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
+                        onClick: handleHome,
+                        children: "Home"
+                    }, void 0, false, {
+                        fileName: "src/components/navigation-view.jsx",
+                        lineNumber: 27,
+                        columnNumber: 21
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/components/navigation-view.jsx",
+                    lineNumber: 27,
+                    columnNumber: 17
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
+                        onClick: handleAboutMe,
+                        children: "About me"
                     }, void 0, false, {
                         fileName: "src/components/navigation-view.jsx",
                         lineNumber: 28,
-                        columnNumber: 17
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
-                            onClick: handleAboutMe,
-                            children: "About me"
-                        }, void 0, false, {
-                            fileName: "src/components/navigation-view.jsx",
-                            lineNumber: 29,
-                            columnNumber: 21
-                        }, undefined)
+                        columnNumber: 21
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/components/navigation-view.jsx",
+                    lineNumber: 28,
+                    columnNumber: 17
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
+                        onClick: handleContact,
+                        children: "Contact"
                     }, void 0, false, {
                         fileName: "src/components/navigation-view.jsx",
                         lineNumber: 29,
-                        columnNumber: 17
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
-                            onClick: handleContact,
-                            children: "Contact"
-                        }, void 0, false, {
-                            fileName: "src/components/navigation-view.jsx",
-                            lineNumber: 30,
-                            columnNumber: 21
-                        }, undefined)
+                        columnNumber: 21
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/components/navigation-view.jsx",
+                    lineNumber: 29,
+                    columnNumber: 17
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
+                        onClick: handleWork,
+                        children: "My work"
                     }, void 0, false, {
                         fileName: "src/components/navigation-view.jsx",
                         lineNumber: 30,
-                        columnNumber: 17
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
-                            onClick: handleWork,
-                            children: "My work"
-                        }, void 0, false, {
-                            fileName: "src/components/navigation-view.jsx",
-                            lineNumber: 31,
-                            columnNumber: 21
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/components/navigation-view.jsx",
-                        lineNumber: 31,
-                        columnNumber: 17
+                        columnNumber: 21
                     }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/navigation-view.jsx",
-                lineNumber: 27,
-                columnNumber: 13
-            }, undefined)
-        ]
-    }, void 0, true, {
+                }, void 0, false, {
+                    fileName: "src/components/navigation-view.jsx",
+                    lineNumber: 30,
+                    columnNumber: 17
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/navigation-view.jsx",
+            lineNumber: 26,
+            columnNumber: 13
+        }, undefined)
+    }, void 0, false, {
         fileName: "src/components/navigation-view.jsx",
         lineNumber: 25,
         columnNumber: 9
@@ -46843,10 +46834,56 @@ const HomeView = ()=>{
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                children: "Home"
-            }, void 0, false, {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {}, void 0, false, {
+                        fileName: "src/components/home-view.jsx",
+                        lineNumber: 8,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        children: "Seth Singletary, Web Developer"
+                    }, void 0, false, {
+                        fileName: "src/components/home-view.jsx",
+                        lineNumber: 9,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
                 fileName: "src/components/home-view.jsx",
                 lineNumber: 7,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    children: [
+                        "Hello! My name is Seth Singletary and I am currently studying to be a fullstack software developer! I've from Michigan, born and raised.",
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                            fileName: "src/components/home-view.jsx",
+                            lineNumber: 14,
+                            columnNumber: 21
+                        }, undefined),
+                        "I love to go on walks and hikes, as well as learn more about anything I'm passionate about.",
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                            fileName: "src/components/home-view.jsx",
+                            lineNumber: 15,
+                            columnNumber: 21
+                        }, undefined),
+                        "My intrestes include, Artificial Intelligence, Machine learning, Blockchain and general automation.",
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                            fileName: "src/components/home-view.jsx",
+                            lineNumber: 16,
+                            columnNumber: 21
+                        }, undefined),
+                        "My fiance and I love to explore, and we are always happy to try something new!"
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/home-view.jsx",
+                    lineNumber: 12,
+                    columnNumber: 17
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/home-view.jsx",
+                lineNumber: 11,
                 columnNumber: 13
             }, undefined)
         ]

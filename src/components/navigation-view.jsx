@@ -23,7 +23,6 @@ export const NavigationView = () => {
 
     return (
         <div>
-            <h1>Seth Singletary</h1>
             <ul>
                 <li><Button onClick={handleHome}>Home</Button></li>
                 <li><Button onClick={handleAboutMe}>About me</Button></li>
