@@ -25,10 +25,10 @@ export const NavigationView = () => {
         <div>
             <ul>
                 <li><Button onClick={handleHome}>Home</Button></li>
-                <li><Button onClick={handleAboutMe}>About me</Button></li>
                 <li><Button onClick={handleContact}>Contact</Button></li>
                 <li><Button onClick={handleWork}>My work</Button></li>
             </ul>
         </div>
     )
+    //  <li><Button onClick={handleAboutMe}>About me</Button></li>
 }

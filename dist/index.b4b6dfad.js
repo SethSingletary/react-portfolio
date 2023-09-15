@@ -33316,8 +33316,8 @@ const NavigationView = ()=>{
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
-                        onClick: handleAboutMe,
-                        children: "About me"
+                        onClick: handleContact,
+                        children: "Contact"
                     }, void 0, false, {
                         fileName: "src/components/navigation-view.jsx",
                         lineNumber: 28,
@@ -33330,8 +33330,8 @@ const NavigationView = ()=>{
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
-                        onClick: handleContact,
-                        children: "Contact"
+                        onClick: handleWork,
+                        children: "My work"
                     }, void 0, false, {
                         fileName: "src/components/navigation-view.jsx",
                         lineNumber: 29,
@@ -33340,20 +33340,6 @@ const NavigationView = ()=>{
                 }, void 0, false, {
                     fileName: "src/components/navigation-view.jsx",
                     lineNumber: 29,
-                    columnNumber: 17
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
-                        onClick: handleWork,
-                        children: "My work"
-                    }, void 0, false, {
-                        fileName: "src/components/navigation-view.jsx",
-                        lineNumber: 30,
-                        columnNumber: 21
-                    }, undefined)
-                }, void 0, false, {
-                    fileName: "src/components/navigation-view.jsx",
-                    lineNumber: 30,
                     columnNumber: 17
                 }, undefined)
             ]
@@ -33367,6 +33353,7 @@ const NavigationView = ()=>{
         lineNumber: 25,
         columnNumber: 9
     }, undefined);
+//  <li><Button onClick={handleAboutMe}>About me</Button></li>
 };
 _s(NavigationView, "CzcTeTziyjMsSrAVmHuCCb6+Bfg=", false, function() {
     return [
