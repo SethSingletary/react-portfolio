@@ -1,11 +1,12 @@
-import { NavigationView } from "./navigation-view"
+import { NavigationView } from "./navigation-view";
+import profile from './images/profile.jpg';
 
 export const HomeView = () => {
     return(
         <div>
             <NavigationView/>
             <div>
-                <img src="./images/profile.JPG" alt="A photo of Seth Singletary"></img>
+                <img src={profile} alt="A photo of me" height="auto" width="30%"></img>
                 <h1>Seth Singletary, Web Developer</h1>
             </div>
             <div>
