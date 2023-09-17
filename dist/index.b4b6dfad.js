@@ -27174,7 +27174,6 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _reactRouterDom = require("react-router-dom");
 var _navigationView = require("./navigation-view");
 var _homeView = require("./home-view");
-var _aboutView = require("./about-view");
 var _contactView = require("./contact-view");
 var _workView = require("./work-view");
 const MainView = ()=>{
@@ -27182,23 +27181,13 @@ const MainView = ()=>{
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Routes), {
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/about",
-                    element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutView.AboutView), {}, void 0, false, void 0, void 0)
-                    }, void 0, false)
-                }, void 0, false, {
-                    fileName: "src/components/main-view.jsx",
-                    lineNumber: 12,
-                    columnNumber: 17
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
                     path: "/",
                     element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeView.HomeView), {}, void 0, false, void 0, void 0)
                     }, void 0, false)
                 }, void 0, false, {
                     fileName: "src/components/main-view.jsx",
-                    lineNumber: 20,
+                    lineNumber: 11,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
@@ -27208,7 +27197,7 @@ const MainView = ()=>{
                     }, void 0, false)
                 }, void 0, false, {
                     fileName: "src/components/main-view.jsx",
-                    lineNumber: 28,
+                    lineNumber: 19,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
@@ -27218,18 +27207,18 @@ const MainView = ()=>{
                     }, void 0, false)
                 }, void 0, false, {
                     fileName: "src/components/main-view.jsx",
-                    lineNumber: 36,
+                    lineNumber: 27,
                     columnNumber: 17
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/components/main-view.jsx",
-            lineNumber: 11,
+            lineNumber: 10,
             columnNumber: 13
         }, undefined)
     }, void 0, false, {
         fileName: "src/components/main-view.jsx",
-        lineNumber: 10,
+        lineNumber: 9,
         columnNumber: 9
     }, undefined);
 };
@@ -27242,7 +27231,7 @@ $RefreshReg$(_c, "MainView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"9xmpe","./navigation-view":"8niNh","./home-view":"enI8t","./about-view":"ciw04","./contact-view":"jW3cC","./work-view":"hh8Um","@parcel/transformer-js/src/esmodule-helpers.js":"8l0cl","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"vZYVs"}],"9xmpe":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"9xmpe","./navigation-view":"8niNh","./home-view":"enI8t","./contact-view":"jW3cC","./work-view":"hh8Um","@parcel/transformer-js/src/esmodule-helpers.js":"8l0cl","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"vZYVs"}],"9xmpe":[function(require,module,exports) {
 /**
  * React Router DOM v6.16.0
  *
@@ -46756,6 +46745,7 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "HomeView", ()=>HomeView);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _navigationView = require("./navigation-view");
+var _footerView = require("./footer-view");
 var _profilePng = require("./images/profile.png");
 var _profilePngDefault = parcelHelpers.interopDefault(_profilePng);
 const HomeView = ()=>{
@@ -46763,7 +46753,7 @@ const HomeView = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navigationView.NavigationView), {}, void 0, false, {
                 fileName: "src/components/home-view.jsx",
-                lineNumber: 7,
+                lineNumber: 8,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -46775,20 +46765,20 @@ const HomeView = ()=>{
                         width: "30%"
                     }, void 0, false, {
                         fileName: "src/components/home-view.jsx",
-                        lineNumber: 9,
+                        lineNumber: 10,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                         children: "Seth Singletary, Web Developer"
                     }, void 0, false, {
                         fileName: "src/components/home-view.jsx",
-                        lineNumber: 10,
+                        lineNumber: 11,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/home-view.jsx",
-                lineNumber: 8,
+                lineNumber: 9,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -46797,31 +46787,31 @@ const HomeView = ()=>{
                         "Hello! My name is Seth Singletary and I am currently studying to be a fullstack software developer! I've from Michigan, born and raised.",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                             fileName: "src/components/home-view.jsx",
-                            lineNumber: 15,
+                            lineNumber: 16,
                             columnNumber: 21
                         }, undefined),
                         "I love to go on walks and hikes, as well as learn more about anything I'm passionate about.",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                             fileName: "src/components/home-view.jsx",
-                            lineNumber: 16,
+                            lineNumber: 17,
                             columnNumber: 21
                         }, undefined),
                         "My intrestes include, Artificial Intelligence, Machine learning, Blockchain and general automation.",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                             fileName: "src/components/home-view.jsx",
-                            lineNumber: 17,
+                            lineNumber: 18,
                             columnNumber: 21
                         }, undefined),
                         "My fiance and I love to explore, and we are always happy to try something new!"
                     ]
                 }, void 0, true, {
                     fileName: "src/components/home-view.jsx",
-                    lineNumber: 13,
+                    lineNumber: 14,
                     columnNumber: 17
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/home-view.jsx",
-                lineNumber: 12,
+                lineNumber: 13,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -46833,42 +46823,42 @@ const HomeView = ()=>{
                                     children: "Skills"
                                 }, void 0, false, {
                                     fileName: "src/components/home-view.jsx",
-                                    lineNumber: 23,
+                                    lineNumber: 24,
                                     columnNumber: 25
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                     fileName: "src/components/home-view.jsx",
-                                    lineNumber: 23,
+                                    lineNumber: 24,
                                     columnNumber: 40
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
                                     children: "Years of Experiance"
                                 }, void 0, false, {
                                     fileName: "src/components/home-view.jsx",
-                                    lineNumber: 24,
+                                    lineNumber: 25,
                                     columnNumber: 25
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                     fileName: "src/components/home-view.jsx",
-                                    lineNumber: 24,
+                                    lineNumber: 25,
                                     columnNumber: 53
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
                                     children: "Level of Expertise"
                                 }, void 0, false, {
                                     fileName: "src/components/home-view.jsx",
-                                    lineNumber: 25,
+                                    lineNumber: 26,
                                     columnNumber: 25
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                     fileName: "src/components/home-view.jsx",
-                                    lineNumber: 25,
+                                    lineNumber: 26,
                                     columnNumber: 52
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/home-view.jsx",
-                            lineNumber: 22,
+                            lineNumber: 23,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tbody", {
@@ -46879,42 +46869,42 @@ const HomeView = ()=>{
                                             children: "React"
                                         }, void 0, false, {
                                             fileName: "src/components/home-view.jsx",
-                                            lineNumber: 29,
+                                            lineNumber: 30,
                                             columnNumber: 29
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                             fileName: "src/components/home-view.jsx",
-                                            lineNumber: 29,
+                                            lineNumber: 30,
                                             columnNumber: 43
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
                                             children: "2"
                                         }, void 0, false, {
                                             fileName: "src/components/home-view.jsx",
-                                            lineNumber: 30,
+                                            lineNumber: 31,
                                             columnNumber: 29
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                             fileName: "src/components/home-view.jsx",
-                                            lineNumber: 30,
+                                            lineNumber: 31,
                                             columnNumber: 39
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
                                             children: "Intermidiate"
                                         }, void 0, false, {
                                             fileName: "src/components/home-view.jsx",
-                                            lineNumber: 31,
+                                            lineNumber: 32,
                                             columnNumber: 29
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                             fileName: "src/components/home-view.jsx",
-                                            lineNumber: 31,
+                                            lineNumber: 32,
                                             columnNumber: 50
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/home-view.jsx",
-                                    lineNumber: 28,
+                                    lineNumber: 29,
                                     columnNumber: 25
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
@@ -46923,65 +46913,158 @@ const HomeView = ()=>{
                                             children: "SQL"
                                         }, void 0, false, {
                                             fileName: "src/components/home-view.jsx",
-                                            lineNumber: 34,
+                                            lineNumber: 35,
                                             columnNumber: 29
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                             fileName: "src/components/home-view.jsx",
-                                            lineNumber: 34,
+                                            lineNumber: 35,
                                             columnNumber: 41
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
                                             children: "1"
                                         }, void 0, false, {
                                             fileName: "src/components/home-view.jsx",
-                                            lineNumber: 35,
+                                            lineNumber: 36,
                                             columnNumber: 29
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                             fileName: "src/components/home-view.jsx",
-                                            lineNumber: 35,
+                                            lineNumber: 36,
                                             columnNumber: 39
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
                                             children: "Beginner"
                                         }, void 0, false, {
                                             fileName: "src/components/home-view.jsx",
-                                            lineNumber: 36,
+                                            lineNumber: 37,
                                             columnNumber: 29
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                             fileName: "src/components/home-view.jsx",
-                                            lineNumber: 36,
+                                            lineNumber: 37,
                                             columnNumber: 46
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/home-view.jsx",
-                                    lineNumber: 33,
+                                    lineNumber: 34,
+                                    columnNumber: 25
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                            children: "MongoDB"
+                                        }, void 0, false, {
+                                            fileName: "src/components/home-view.jsx",
+                                            lineNumber: 40,
+                                            columnNumber: 29
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                            fileName: "src/components/home-view.jsx",
+                                            lineNumber: 40,
+                                            columnNumber: 45
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                            children: "1"
+                                        }, void 0, false, {
+                                            fileName: "src/components/home-view.jsx",
+                                            lineNumber: 41,
+                                            columnNumber: 29
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                            fileName: "src/components/home-view.jsx",
+                                            lineNumber: 41,
+                                            columnNumber: 39
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                            children: "Beginner"
+                                        }, void 0, false, {
+                                            fileName: "src/components/home-view.jsx",
+                                            lineNumber: 42,
+                                            columnNumber: 29
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                            fileName: "src/components/home-view.jsx",
+                                            lineNumber: 42,
+                                            columnNumber: 46
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/home-view.jsx",
+                                    lineNumber: 39,
+                                    columnNumber: 25
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                            children: "Angular"
+                                        }, void 0, false, {
+                                            fileName: "src/components/home-view.jsx",
+                                            lineNumber: 45,
+                                            columnNumber: 29
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                            fileName: "src/components/home-view.jsx",
+                                            lineNumber: 45,
+                                            columnNumber: 45
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                            children: "1"
+                                        }, void 0, false, {
+                                            fileName: "src/components/home-view.jsx",
+                                            lineNumber: 46,
+                                            columnNumber: 29
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                            fileName: "src/components/home-view.jsx",
+                                            lineNumber: 46,
+                                            columnNumber: 39
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                            children: "Angular"
+                                        }, void 0, false, {
+                                            fileName: "src/components/home-view.jsx",
+                                            lineNumber: 47,
+                                            columnNumber: 29
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                            fileName: "src/components/home-view.jsx",
+                                            lineNumber: 47,
+                                            columnNumber: 45
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/home-view.jsx",
+                                    lineNumber: 44,
                                     columnNumber: 25
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/home-view.jsx",
-                            lineNumber: 27,
+                            lineNumber: 28,
                             columnNumber: 21
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/home-view.jsx",
-                    lineNumber: 21,
+                    lineNumber: 22,
                     columnNumber: 17
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/home-view.jsx",
-                lineNumber: 20,
+                lineNumber: 21,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerView.FooterView), {}, void 0, false, {
+                fileName: "src/components/home-view.jsx",
+                lineNumber: 52,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/home-view.jsx",
-        lineNumber: 6,
+        lineNumber: 7,
         columnNumber: 9
     }, undefined);
 };
@@ -46994,10 +47077,79 @@ $RefreshReg$(_c, "HomeView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","./navigation-view":"8niNh","./images/profile.png":"1HyHh","@parcel/transformer-js/src/esmodule-helpers.js":"8l0cl","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"vZYVs"}],"1HyHh":[function(require,module,exports) {
-module.exports = require("c5bff2caf3c7cf87").getBundleURL("byUka") + "profile.c0c833aa.png" + "?" + Date.now();
+},{"react/jsx-dev-runtime":"iTorj","./navigation-view":"8niNh","./footer-view":"ko9Bf","./images/profile.png":"1HyHh","@parcel/transformer-js/src/esmodule-helpers.js":"8l0cl","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"vZYVs"}],"ko9Bf":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$b2aa = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$b2aa.prelude(module);
 
-},{"c5bff2caf3c7cf87":"dKLuR"}],"dKLuR":[function(require,module,exports) {
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "FooterView", ()=>FooterView);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _githubSvgrepoComSvg = require("./images/github-svgrepo-com.svg");
+var _githubSvgrepoComSvgDefault = parcelHelpers.interopDefault(_githubSvgrepoComSvg);
+var _linkedinSvgrepoComSvg = require("./images/linkedin-svgrepo-com.svg");
+var _linkedinSvgrepoComSvgDefault = parcelHelpers.interopDefault(_linkedinSvgrepoComSvg);
+const FooterView = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "footer",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                href: "#",
+                target: "_blank",
+                className: "footerItem",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    src: (0, _githubSvgrepoComSvgDefault.default),
+                    height: "50px"
+                }, void 0, false, {
+                    fileName: "src/components/footer-view.jsx",
+                    lineNumber: 7,
+                    columnNumber: 64
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/footer-view.jsx",
+                lineNumber: 7,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                href: "#",
+                target: "_blank",
+                className: "footerItem",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    src: (0, _linkedinSvgrepoComSvgDefault.default),
+                    height: "50px"
+                }, void 0, false, {
+                    fileName: "src/components/footer-view.jsx",
+                    lineNumber: 8,
+                    columnNumber: 64
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/footer-view.jsx",
+                lineNumber: 8,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/footer-view.jsx",
+        lineNumber: 6,
+        columnNumber: 9
+    }, undefined);
+};
+_c = FooterView;
+var _c;
+$RefreshReg$(_c, "FooterView");
+
+  $parcel$ReactRefreshHelpers$b2aa.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","./images/github-svgrepo-com.svg":"dkM6f","./images/linkedin-svgrepo-com.svg":"3izvm","@parcel/transformer-js/src/esmodule-helpers.js":"8l0cl","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"vZYVs"}],"dkM6f":[function(require,module,exports) {
+module.exports = require("7fab666878bab002").getBundleURL("byUka") + "github-svgrepo-com.18b591aa.svg" + "?" + Date.now();
+
+},{"7fab666878bab002":"dKLuR"}],"dKLuR":[function(require,module,exports) {
 "use strict";
 var bundleURL = {};
 function getBundleURLCached(id) {
@@ -47032,64 +47184,13 @@ exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 exports.getOrigin = getOrigin;
 
-},{}],"ciw04":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$0ba2 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$0ba2.prelude(module);
+},{}],"3izvm":[function(require,module,exports) {
+module.exports = require("2aca47ba7186d56").getBundleURL("byUka") + "linkedin-svgrepo-com.eb5a2f53.svg" + "?" + Date.now();
 
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "AboutView", ()=>AboutView);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _navigationView = require("./navigation-view");
-const AboutView = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navigationView.NavigationView), {}, void 0, false, {
-                fileName: "src/components/about-view.jsx",
-                lineNumber: 6,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                children: "Insert bio about Seth here"
-            }, void 0, false, {
-                fileName: "src/components/about-view.jsx",
-                lineNumber: 7,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                children: "Insert photo of Seth here"
-            }, void 0, false, {
-                fileName: "src/components/about-view.jsx",
-                lineNumber: 8,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                children: "Add table for skills here"
-            }, void 0, false, {
-                fileName: "src/components/about-view.jsx",
-                lineNumber: 9,
-                columnNumber: 13
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "src/components/about-view.jsx",
-        lineNumber: 5,
-        columnNumber: 9
-    }, undefined);
-};
-_c = AboutView;
-var _c;
-$RefreshReg$(_c, "AboutView");
+},{"2aca47ba7186d56":"dKLuR"}],"1HyHh":[function(require,module,exports) {
+module.exports = require("c5bff2caf3c7cf87").getBundleURL("byUka") + "profile.c0c833aa.png" + "?" + Date.now();
 
-  $parcel$ReactRefreshHelpers$0ba2.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","./navigation-view":"8niNh","@parcel/transformer-js/src/esmodule-helpers.js":"8l0cl","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"vZYVs"}],"jW3cC":[function(require,module,exports) {
+},{"c5bff2caf3c7cf87":"dKLuR"}],"jW3cC":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$2341 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -47100,8 +47201,8 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "ContactView", ()=>ContactView);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _reactBootstrap = require("react-bootstrap");
 var _navigationView = require("./navigation-view");
+var _footerView = require("./footer-view");
 const ContactView = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
@@ -47154,6 +47255,11 @@ const ContactView = ()=>{
                 fileName: "src/components/contact-view.jsx",
                 lineNumber: 10,
                 columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerView.FooterView), {}, void 0, false, {
+                fileName: "src/components/contact-view.jsx",
+                lineNumber: 14,
+                columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
@@ -47171,7 +47277,7 @@ $RefreshReg$(_c, "ContactView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-bootstrap":"3AD9A","./navigation-view":"8niNh","@parcel/transformer-js/src/esmodule-helpers.js":"8l0cl","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"vZYVs"}],"hh8Um":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","./navigation-view":"8niNh","./footer-view":"ko9Bf","@parcel/transformer-js/src/esmodule-helpers.js":"8l0cl","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"vZYVs"}],"hh8Um":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ef29 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -47183,25 +47289,146 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "WorkView", ()=>WorkView);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _navigationView = require("./navigation-view");
+var _footerView = require("./footer-view");
+var _meetAppPng = require("./images/meet-app.png");
+var _meetAppPngDefault = parcelHelpers.interopDefault(_meetAppPng);
+var _myFlixPng = require("./images/myFlix.png");
+var _myFlixPngDefault = parcelHelpers.interopDefault(_myFlixPng);
 const WorkView = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navigationView.NavigationView), {}, void 0, false, {
                 fileName: "src/components/work-view.jsx",
-                lineNumber: 6,
+                lineNumber: 9,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                children: "Work"
-            }, void 0, false, {
+                className: "grid",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "grid-item",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                    href: "#",
+                                    target: "_blank",
+                                    children: "Meet App"
+                                }, void 0, false, {
+                                    fileName: "src/components/work-view.jsx",
+                                    lineNumber: 12,
+                                    columnNumber: 25
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/work-view.jsx",
+                                lineNumber: 12,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: (0, _meetAppPngDefault.default),
+                                height: "250px",
+                                alt: "Meet App Picture"
+                            }, void 0, false, {
+                                fileName: "src/components/work-view.jsx",
+                                lineNumber: 13,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Meet allows you to see upcoming events from CareerFoundry all over the world. For this project, I used googleapis, aws lambda and scopes."
+                            }, void 0, false, {
+                                fileName: "src/components/work-view.jsx",
+                                lineNumber: 14,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "#",
+                                target: "_blank",
+                                children: "See code on Github"
+                            }, void 0, false, {
+                                fileName: "src/components/work-view.jsx",
+                                lineNumber: 18,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/work-view.jsx",
+                        lineNumber: 11,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "grid-item",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                    href: "#",
+                                    target: "_blank",
+                                    children: "React myFlix App"
+                                }, void 0, false, {
+                                    fileName: "src/components/work-view.jsx",
+                                    lineNumber: 21,
+                                    columnNumber: 25
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/work-view.jsx",
+                                lineNumber: 21,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: (0, _myFlixPngDefault.default),
+                                height: "250px",
+                                alt: "React myFlix Picture"
+                            }, void 0, false, {
+                                fileName: "src/components/work-view.jsx",
+                                lineNumber: 22,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    "React myFlix displays a set of movies from a database that I created, allowing users to log in, register, and add movies to their favorites. While it is slightly clumbersome, given that it was my first Full Stack application, it show cases my knowledge of creating endpoints, database managment and building a single page react application. You can see the backend code ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                        href: "#",
+                                        target: "_blank",
+                                        children: "here"
+                                    }, void 0, false, {
+                                        fileName: "src/components/work-view.jsx",
+                                        lineNumber: 26,
+                                        columnNumber: 50
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/work-view.jsx",
+                                lineNumber: 23,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "#",
+                                target: "_blank",
+                                children: "See code on Github"
+                            }, void 0, false, {
+                                fileName: "src/components/work-view.jsx",
+                                lineNumber: 28,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/work-view.jsx",
+                        lineNumber: 20,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
                 fileName: "src/components/work-view.jsx",
-                lineNumber: 7,
+                lineNumber: 10,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerView.FooterView), {}, void 0, false, {
+                fileName: "src/components/work-view.jsx",
+                lineNumber: 31,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/work-view.jsx",
-        lineNumber: 5,
+        lineNumber: 8,
         columnNumber: 9
     }, undefined);
 };
@@ -47214,6 +47441,12 @@ $RefreshReg$(_c, "WorkView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","./navigation-view":"8niNh","@parcel/transformer-js/src/esmodule-helpers.js":"8l0cl","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"vZYVs"}],"lJZlQ":[function() {},{}]},["cRM7G","4wyuL","d8Dch"], "d8Dch", "parcelRequire21c5")
+},{"react/jsx-dev-runtime":"iTorj","./navigation-view":"8niNh","./footer-view":"ko9Bf","./images/meet-app.png":"atBBu","./images/myFlix.png":"dOg08","@parcel/transformer-js/src/esmodule-helpers.js":"8l0cl","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"vZYVs"}],"atBBu":[function(require,module,exports) {
+module.exports = require("7f30e7bb7a360195").getBundleURL("byUka") + "meet-app.fcff77fb.png" + "?" + Date.now();
+
+},{"7f30e7bb7a360195":"dKLuR"}],"dOg08":[function(require,module,exports) {
+module.exports = require("8aac122482572bf3").getBundleURL("byUka") + "myFlix.2905df61.png" + "?" + Date.now();
+
+},{"8aac122482572bf3":"dKLuR"}],"lJZlQ":[function() {},{}]},["cRM7G","4wyuL","d8Dch"], "d8Dch", "parcelRequire21c5")
 
 //# sourceMappingURL=index.b4b6dfad.js.map

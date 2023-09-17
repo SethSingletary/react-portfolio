@@ -2,12 +2,50 @@ $color: steelblue;
 
 body{
     text-align: center;
+    background-color: $color;
 }
-
+table, tr, td {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+}
 li{
     display: inline;
 }
 
-.navigationBar {
-    color: $color;
+a{
+    color: black;
+    
 }
+
+Button {
+    background-color: slategray;
+}
+a:hover, Button:hover {
+    background-color: royalblue;
+
+}
+
+.footer {
+    display: inline;
+    padding-top: 10px;
+}
+
+.navigationBar {
+    background-color: $color;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.grid-item {
+
+}
+
+.footerItem:hover {
+    background-color: steelblue;
+}
+

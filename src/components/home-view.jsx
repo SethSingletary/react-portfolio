@@ -1,4 +1,5 @@
 import { NavigationView } from "./navigation-view";
+import { FooterView } from "./footer-view";
 import profile from './images/profile.png';
 
 export const HomeView = () => {
@@ -35,9 +36,20 @@ export const HomeView = () => {
                             <td>1</td><br></br>
                             <td>Beginner</td><br></br>
                         </tr>
+                        <tr>
+                            <td>MongoDB</td><br></br>
+                            <td>1</td><br></br>
+                            <td>Beginner</td><br></br>
+                        </tr>
+                        <tr>
+                            <td>Angular</td><br></br>
+                            <td>1</td><br></br>
+                            <td>Angular</td><br></br>
+                        </tr>
                     </tbody>
                 </table>
             </div>
+            <FooterView/>
         </div>
     )
 }
