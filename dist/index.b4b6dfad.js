@@ -46823,6 +46823,160 @@ const HomeView = ()=>{
                 fileName: "src/components/home-view.jsx",
                 lineNumber: 12,
                 columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("table", {
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("thead", {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                    children: "Skills"
+                                }, void 0, false, {
+                                    fileName: "src/components/home-view.jsx",
+                                    lineNumber: 23,
+                                    columnNumber: 25
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                    fileName: "src/components/home-view.jsx",
+                                    lineNumber: 23,
+                                    columnNumber: 40
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                    children: "Years of Experiance"
+                                }, void 0, false, {
+                                    fileName: "src/components/home-view.jsx",
+                                    lineNumber: 24,
+                                    columnNumber: 25
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                    fileName: "src/components/home-view.jsx",
+                                    lineNumber: 24,
+                                    columnNumber: 53
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                    children: "Level of Expertise"
+                                }, void 0, false, {
+                                    fileName: "src/components/home-view.jsx",
+                                    lineNumber: 25,
+                                    columnNumber: 25
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                    fileName: "src/components/home-view.jsx",
+                                    lineNumber: 25,
+                                    columnNumber: 52
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/home-view.jsx",
+                            lineNumber: 22,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tbody", {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                            children: "React"
+                                        }, void 0, false, {
+                                            fileName: "src/components/home-view.jsx",
+                                            lineNumber: 29,
+                                            columnNumber: 29
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                            fileName: "src/components/home-view.jsx",
+                                            lineNumber: 29,
+                                            columnNumber: 43
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                            children: "2"
+                                        }, void 0, false, {
+                                            fileName: "src/components/home-view.jsx",
+                                            lineNumber: 30,
+                                            columnNumber: 29
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                            fileName: "src/components/home-view.jsx",
+                                            lineNumber: 30,
+                                            columnNumber: 39
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                            children: "Intermidiate"
+                                        }, void 0, false, {
+                                            fileName: "src/components/home-view.jsx",
+                                            lineNumber: 31,
+                                            columnNumber: 29
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                            fileName: "src/components/home-view.jsx",
+                                            lineNumber: 31,
+                                            columnNumber: 50
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/home-view.jsx",
+                                    lineNumber: 28,
+                                    columnNumber: 25
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                            children: "SQL"
+                                        }, void 0, false, {
+                                            fileName: "src/components/home-view.jsx",
+                                            lineNumber: 34,
+                                            columnNumber: 29
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                            fileName: "src/components/home-view.jsx",
+                                            lineNumber: 34,
+                                            columnNumber: 41
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                            children: "1"
+                                        }, void 0, false, {
+                                            fileName: "src/components/home-view.jsx",
+                                            lineNumber: 35,
+                                            columnNumber: 29
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                            fileName: "src/components/home-view.jsx",
+                                            lineNumber: 35,
+                                            columnNumber: 39
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                            children: "Beginner"
+                                        }, void 0, false, {
+                                            fileName: "src/components/home-view.jsx",
+                                            lineNumber: 36,
+                                            columnNumber: 29
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                            fileName: "src/components/home-view.jsx",
+                                            lineNumber: 36,
+                                            columnNumber: 46
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/home-view.jsx",
+                                    lineNumber: 33,
+                                    columnNumber: 25
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/home-view.jsx",
+                            lineNumber: 27,
+                            columnNumber: 21
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/home-view.jsx",
+                    lineNumber: 21,
+                    columnNumber: 17
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/home-view.jsx",
+                lineNumber: 20,
+                columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {

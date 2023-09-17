@@ -17,6 +17,27 @@ export const HomeView = () => {
                     <br/>My fiance and I love to explore, and we are always happy to try something new!
                 </p>
             </div>
+            <div>
+                <table>
+                    <thead>
+                        <th>Skills</th><br></br>
+                        <th>Years of Experiance</th><br></br>
+                        <th>Level of Expertise</th><br></br>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>React</td><br></br>
+                            <td>2</td><br></br>
+                            <td>Intermidiate</td><br></br>
+                        </tr>
+                        <tr>
+                            <td>SQL</td><br></br>
+                            <td>1</td><br></br>
+                            <td>Beginner</td><br></br>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     )
 }
