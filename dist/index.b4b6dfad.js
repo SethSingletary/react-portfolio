@@ -47340,7 +47340,7 @@ const WorkView = ()=>{
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "#",
+                                href: "https://github.com/SethSingletary/meet",
                                 target: "_blank",
                                 children: "See code on Github"
                             }, void 0, false, {
@@ -47385,7 +47385,7 @@ const WorkView = ()=>{
                                 children: [
                                     "React myFlix displays a set of movies from a database that I created, allowing users to log in, register, and add movies to their favorites. While it is slightly clumbersome, given that it was my first Full Stack application, it show cases my knowledge of creating endpoints, database managment and building a single page react application. You can see the backend code ",
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                        href: "#",
+                                        href: "https://github.com/SethSingletary/myFlix",
                                         target: "_blank",
                                         children: "here"
                                     }, void 0, false, {
@@ -47400,7 +47400,7 @@ const WorkView = ()=>{
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "#",
+                                href: "https://github.com/SethSingletary/myFlix-client",
                                 target: "_blank",
                                 children: "See code on Github"
                             }, void 0, false, {
@@ -47413,6 +47413,150 @@ const WorkView = ()=>{
                         fileName: "src/components/work-view.jsx",
                         lineNumber: 20,
                         columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "grid-item",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                    href: "#",
+                                    target: "_blank",
+                                    children: "Todo List App"
+                                }, void 0, false, {
+                                    fileName: "src/components/work-view.jsx",
+                                    lineNumber: 31,
+                                    columnNumber: 25
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/work-view.jsx",
+                                lineNumber: 31,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                height: "250px",
+                                alt: "Todo App Picture"
+                            }, void 0, false, {
+                                fileName: "src/components/work-view.jsx",
+                                lineNumber: 32,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Enter info about the app here"
+                            }, void 0, false, {
+                                fileName: "src/components/work-view.jsx",
+                                lineNumber: 33,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "#",
+                                target: "_blank",
+                                children: "See code on Github"
+                            }, void 0, false, {
+                                fileName: "src/components/work-view.jsx",
+                                lineNumber: 34,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/work-view.jsx",
+                        lineNumber: 30,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "grid-item",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                    href: "#",
+                                    target: "_blank",
+                                    children: "React Blog"
+                                }, void 0, false, {
+                                    fileName: "src/components/work-view.jsx",
+                                    lineNumber: 37,
+                                    columnNumber: 25
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/work-view.jsx",
+                                lineNumber: 37,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                height: "250px",
+                                alt: "Blog Picture"
+                            }, void 0, false, {
+                                fileName: "src/components/work-view.jsx",
+                                lineNumber: 38,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Enter info about the blog here"
+                            }, void 0, false, {
+                                fileName: "src/components/work-view.jsx",
+                                lineNumber: 39,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "#",
+                                target: "_blank",
+                                children: "See code on Github"
+                            }, void 0, false, {
+                                fileName: "src/components/work-view.jsx",
+                                lineNumber: 40,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/work-view.jsx",
+                        lineNumber: 36,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "grid-item",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                    href: "",
+                                    target: "_blank",
+                                    children: "Angular myFlix App"
+                                }, void 0, false, {
+                                    fileName: "src/components/work-view.jsx",
+                                    lineNumber: 43,
+                                    columnNumber: 25
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/work-view.jsx",
+                                lineNumber: 43,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                height: "250px",
+                                alt: "Angular myFlix Picture"
+                            }, void 0, false, {
+                                fileName: "src/components/work-view.jsx",
+                                lineNumber: 44,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Enter info about the app here"
+                            }, void 0, false, {
+                                fileName: "src/components/work-view.jsx",
+                                lineNumber: 45,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "#",
+                                target: "_blank",
+                                children: "See code on Github"
+                            }, void 0, false, {
+                                fileName: "src/components/work-view.jsx",
+                                lineNumber: 46,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/work-view.jsx",
+                        lineNumber: 42,
+                        columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
@@ -47422,7 +47566,7 @@ const WorkView = ()=>{
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerView.FooterView), {}, void 0, false, {
                 fileName: "src/components/work-view.jsx",
-                lineNumber: 31,
+                lineNumber: 49,
                 columnNumber: 13
             }, undefined)
         ]
