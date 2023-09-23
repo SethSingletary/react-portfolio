@@ -47097,7 +47097,7 @@ const FooterView = ()=>{
         className: "footer",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                href: "#",
+                href: "https://github.com/SethSingletary",
                 target: "_blank",
                 className: "footerItem",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -47106,7 +47106,7 @@ const FooterView = ()=>{
                 }, void 0, false, {
                     fileName: "src/components/footer-view.jsx",
                     lineNumber: 7,
-                    columnNumber: 64
+                    columnNumber: 96
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/footer-view.jsx",
@@ -47114,7 +47114,7 @@ const FooterView = ()=>{
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                href: "#",
+                href: "https://www.linkedin.com/in/seth-singletary",
                 target: "_blank",
                 className: "footerItem",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -47123,7 +47123,7 @@ const FooterView = ()=>{
                 }, void 0, false, {
                     fileName: "src/components/footer-view.jsx",
                     lineNumber: 8,
-                    columnNumber: 64
+                    columnNumber: 106
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/footer-view.jsx",
