@@ -18,7 +18,7 @@ export const WorkView = () => {
                     <a href="https://github.com/SethSingletary/meet" target="_blank">See code on Github</a>
                 </div>
                 <div className="grid-item">
-                    <h2><a href="https://resonant-cassata-933e3a.netlify.app/login" target="_blank">React myFlix App</a></h2>
+                    <h2><a href="https://resonant-cassata-933e3a.netlify.app/" target="_blank">React myFlix App</a></h2>
                     <img src={myFlix} height="250px" alt="React myFlix Picture"></img>
                     <p>
                     React myFlix displays a set of movies from a database that I created, allowing users to log in, register, and add movies to their favorites. 
